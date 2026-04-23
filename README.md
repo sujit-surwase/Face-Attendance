@@ -73,7 +73,7 @@
 
 ## 📁 Project Structure
 
-Face Attendance/
+Face-Attendance/
 │
 ├── main.py ← Main GUI Application (Full Screen)
 ├── register.py ← Face Registration Logic
@@ -85,12 +85,13 @@ Face Attendance/
 ├── dataset/ ← Auto-created: Stores face images per person
 │ ├── Alice/
 │ │ ├── Alice_0.jpg
-│ │ └── Alice_1.jpg ... Alice_99.jpg
+│ │ ├── Alice_1.jpg
+│ │ └── Alice_99.jpg
 │ └── Bob/
-│ └── Bob_0.jpg ... Bob_99.jpg
+│ ├── Bob_0.jpg
+│ └── Bob_99.jpg
 │
 └── Attendance.csv ← Auto-created: Attendance log
-
 
 ---
 
