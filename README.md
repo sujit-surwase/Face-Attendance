@@ -74,24 +74,26 @@
 
 ## 📁 Project Structure
 
-Face Attendance/
+```
+Face-Attendance/
 │
 ├── main.py                  ← Main GUI Application (Full Screen)
-├── register.py              ← Face Registration Logic
+├── register.py              ← Face Registration Logic  
 ├── attendance.py            ← Face Recognition & Attendance Marking
 ├── utils.py                 ← Helper Functions (CSV, Paths)
 ├── requirements.txt         ← All dependencies
 ├── README.md                ← This file
 │
-├── dataset/ ← Auto-created: Stores face images per person
-│ ├── Alice/
-│ │ ├── Alice_0.jpg
-│ │ └── Alice_1.jpg ... Alice_99.jpg
-│ └── Bob/
-│ └── Bob_0.jpg ... Bob_99.jpg
+├── dataset/                 ← Stores face images per person
+│   ├── Alice/
+│   │   ├── Alice_0.jpg
+│   │   └── Alice_99.jpg
+│   └── Bob/
+│       ├── Bob_0.jpg
+│       └── Bob_99.jpg
 │
-└── Attendance.csv ← Auto-created: Attendance log
-
+└── Attendance.csv           ← Auto-created attendance log
+```
 
 ---
 
